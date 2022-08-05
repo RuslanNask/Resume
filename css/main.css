@@ -1,0 +1,382 @@
+body {
+  margin: 40px;
+  background-color: #F5F7FA;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* main style */
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* main content style */
+.main-content {
+  background-color: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 12px 50px;
+}
+
+.about, .project, .work, .education {
+  margin-left: 88px;
+}
+
+/* about user style */
+.about {
+  margin-top: 5px;
+}
+
+.about-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 17px;
+  margin-bottom: 19px;
+}
+
+.about-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  margin-bottom: 24px;
+}
+
+.about-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 40px;
+  margin-right: 342px;
+  color: #060101;
+}
+
+/* project style */
+.project {
+  margin-bottom: 51px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 8px;
+}
+
+.project-list {
+  padding: 0;
+  margin-left: 13px;
+}
+
+.project-title-items {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+}
+
+.ptl,
+.project-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #060101;
+}
+
+.project-link {
+  margin-left: 13px;
+}
+
+.ptl-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* work style */
+.WFD {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  margin-bottom: 11px;
+}
+
+.colortext {
+  color: #FB6D3A;
+}
+
+.WEDATA {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #060101;
+  margin-bottom: 8px;
+}
+
+.line {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.WE-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #060101;
+  margin-bottom: 16px;
+}
+
+.MR-comp2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.WE-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #060101;
+}
+
+.MR-comp3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 11px;
+}
+
+.WE-text2 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #060101;
+  margin-bottom: 43px;
+}
+
+.work-list {
+  padding: 0;
+  margin-left: 10px;
+}
+
+/* education style */
+.Educ-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  margin-bottom: 12px;
+}
+
+.Educ-title2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FB6D3A;
+  margin-bottom: 11px;
+}
+
+.Educ-title3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 12px;
+}
+
+.EducData {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #A8A8A8;
+}
+
+/* sidebar style */
+.sidebar {
+  background-color: #0e02ef;
+  padding-top: 40px;
+  width: 370px;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 20px;
+  transform: scale(1) rotate(0);
+  transition: transform 500ms;
+}
+
+img:hover {
+  border-radius: 50px;
+  transform: scale(1.1) rotate(360deg);
+}
+
+.photo {
+  width: 370px;
+  margin-bottom: 51px;
+}
+
+.contact, .tech-skills, .soft-skills {
+  margin-left: 40px;
+}
+
+.contact {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.tech-skills {
+  margin-bottom: 25px;
+}
+
+.sidebar-title {
+  margin: 0;
+  color: rgb(251, 255, 0);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.contact-typ {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-right: 8px;
+}
+
+.contact-link {
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: rgb(255, 238, 0);
+}
+
+.conteiner-link {
+  display: flex;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+svg.linkedin {
+  position: absolute;
+  top: -63px;
+  left: -50px;
+  fill: none;
+  stroke: rgb(255, 238, 0);
+  /* stroke: #39fa43; */
+  stroke-width: 0.1rem;
+  height: 2.25rem;
+  transition: stroke 0.25s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0ms;
+  width: 2.25rem;
+}
+
+svg.facebook {
+  position: absolute;
+  top: -63px;
+  left: -10px;
+  fill: none;
+  stroke: rgb(255, 238, 0);
+  /* stroke: #39fa43; */
+  stroke-width: 0.1rem;
+  height: 2.25rem;
+  transition: stroke 0.25s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0ms;
+  width: 2.25rem;
+}
+
+svg.github {
+  position: absolute;
+  top: -60px;
+  left: 28px;
+  fill: none;
+  stroke: rgb(255, 238, 0);
+  /* stroke: #39fa43; */
+  stroke-width: 0.12rem;
+  height: 2.25rem;
+  transition: stroke 0.25s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0ms;
+  width: 2.25rem;
+}
+
+svg.instagram {
+  position: absolute;
+  top: -60px;
+  left: 74px;
+  fill: none;
+  stroke: rgb(255, 238, 0);
+  /* stroke: #39fa43; */
+  stroke-width: 0.1rem;
+  height: 2.25rem;
+  transition: stroke 0.25s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0ms;
+  width: 2.25rem;
+}
+
+svg:hover,
+svg:focus {
+  fill: rgb(23, 5, 5);
+  stroke: #39fa43;
+}
+
+.tech-skills-list {
+  color: #ffffff;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.tech-slills-item {
+  color: #FB6D3A;
+}
+
+.tech-skills-text {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.soft-skill-list {
+  color: #ffffff;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.soft-skills-item {
+  color: #FB6D3A;
+}
+
+.soft-skills-text {
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@impo;/*# sourceMappingURL=main.css.map */
